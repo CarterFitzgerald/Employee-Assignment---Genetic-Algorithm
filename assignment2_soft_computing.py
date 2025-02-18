@@ -18,6 +18,8 @@ import numpy as np
 import importlib.util
 import random
 
+""" For code to run correctly simulator path must be adjusted to match attached service_simulator.pyc """
+
 simulator_path = '/content/drive/MyDrive/Assignment_2/service_simulator.pyc'
 
 spec = importlib.util.spec_from_file_location("Simulator", simulator_path)
